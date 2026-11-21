@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chính sách quyền riêng tư – Smart Reminder</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" hreflang="en" href="en.html">
+</head>
+<body>
+<main>
+<p class="lang"><a href="en.html" hreflang="en">English</a></p>
+<h1>Chính sách quyền riêng tư</h1>
+<p class="meta">Smart Reminder · Có hiệu lực từ ngày <!-- TODO: ngày phát hành -->[NGÀY PHÁT HÀNH]</p>
+
+<p>Smart Reminder là ứng dụng nhắc việc theo giờ, theo địa điểm và theo chuỗi việc. Ứng dụng được thiết kế để chạy trên máy của bạn: không cần tài khoản, không có máy chủ riêng, và mọi việc, địa điểm, lịch sử nhắc của bạn chỉ được lưu trên máy.</p>
+<p>Trang này nói rõ dữ liệu nào ở lại trên máy, dữ liệu nào rời khỏi máy, và vì sao.</p>
+
+<h2>1. Dữ liệu chỉ lưu trên máy của bạn</h2>
+<ul>
+<li><strong>Việc cần nhắc</strong>: tên việc, giờ nhắc, quy tắc lặp lại, chuỗi việc.</li>
+<li><strong>Địa điểm đã lưu</strong>: tên, loại, toạ độ và bán kính nhắc.</li>
+<li><strong>Lịch sử nhắc</strong>: lời nhắc nào đã hiện, lúc nào và vì sao. Lịch sử được giữ 180 ngày rồi tự xoá.</li>
+<li><strong>Cài đặt</strong>: giờ yên lặng, thời gian hoãn, giọng đọc, giao diện, ngôn ngữ.</li>
+</ul>
+<p>Chúng tôi không nhận, không xem và không sao lưu những dữ liệu này. Giọng đọc tên việc dùng bộ đọc văn bản có sẵn của hệ điều hành trên máy.</p>
+
+<h2>2. Dữ liệu rời khỏi máy</h2>
+<p>Có ba trường hợp ứng dụng gửi dữ liệu ra ngoài:</p>
+
+<h3>2.1. Gợi ý tên khi bạn chọn điểm trên bản đồ</h3>
+<p>Khi bạn ghim một điểm trên bản đồ, ứng dụng gửi <strong>toạ độ của điểm đó</strong> tới dịch vụ bản đồ của hệ điều hành (Apple trên iPhone, Google trên Android) để lấy địa chỉ và gợi ý tên. Việc này chỉ xảy ra khi bạn chọn điểm trên bản đồ; lưu vị trí hiện tại không gửi gì. Dữ liệu này được xử lý theo chính sách của <a href="https://www.apple.com/legal/privacy/">Apple</a> hoặc <a href="https://policies.google.com/privacy">Google</a>.</p>
+
+<h3>2.2. Tải ảnh bản đồ</h3>
+<p>Màn chọn địa điểm hiển thị bản đồ tải từ <a href="https://openfreemap.org">OpenFreeMap</a>. Như mọi trang web, máy chủ bản đồ nhận được địa chỉ IP của bạn và vùng bản đồ bạn đang xem. Ứng dụng không gửi tên địa điểm hay việc cần nhắc.</p>
+
+<h3>2.3. Báo lỗi khi ứng dụng gặp sự cố</h3>
+<p>Khi ứng dụng bị lỗi, một báo cáo kỹ thuật được gửi tới <a href="https://sentry.io/privacy/">Sentry</a> (máy chủ tại Hoa Kỳ) để chúng tôi sửa lỗi. Báo cáo gồm: loại lỗi và vị trí trong mã nguồn, mã lỗi, phiên bản ứng dụng, đời máy và phiên bản hệ điều hành.</p>
+<p>Trước khi gửi, ứng dụng <strong>tự lọc bỏ</strong> tên việc, tên địa điểm, toạ độ, tên thiết bị và mọi thông tin định danh. Sentry được cấu hình không lưu địa chỉ IP. Báo cáo không gắn với bạn và không dùng để theo dõi hay quảng cáo. Sentry lưu báo cáo trong thời hạn có giới hạn rồi tự xoá.</p>
+
+<h2>3. Quyền ứng dụng xin</h2>
+<ul>
+<li><strong>Thông báo</strong>: để hiện lời nhắc, kể cả khi ứng dụng đã đóng.</li>
+<li><strong>Vị trí</strong> ("Khi dùng app" và "Luôn cho phép"): để nhắc khi bạn đến hoặc rời một địa điểm đã lưu. Hệ điều hành báo khi bạn ra vào vùng đó; ứng dụng không theo dõi vị trí liên tục và không gửi vị trí của bạn đi đâu.</li>
+<li><strong>Báo thức chính xác</strong> (Android): để nhắc đúng phút đã hẹn.</li>
+<li><strong>Chạy khi khởi động máy</strong> (Android): để đặt lại lời nhắc sau khi máy khởi động lại.</li>
+</ul>
+<p>Bạn có thể từ chối hoặc thu hồi mọi quyền trong Cài đặt của máy. Khi đó tính năng tương ứng ngừng hoạt động, phần còn lại vẫn chạy.</p>
+
+<h2>4. Những điều chúng tôi không làm</h2>
+<ul>
+<li>Không bán, không cho thuê, không chia sẻ dữ liệu của bạn để quảng cáo.</li>
+<li>Không theo dõi bạn qua các ứng dụng hay trang web khác.</li>
+<li>Không yêu cầu tài khoản, email hay số điện thoại.</li>
+<li>Không có quảng cáo trong phiên bản này.</li>
+</ul>
+
+<h2>5. Xoá dữ liệu</h2>
+<p>Vì dữ liệu chỉ nằm trên máy, gỡ ứng dụng sẽ xoá toàn bộ việc, địa điểm, lịch sử và cài đặt. Chúng tôi không giữ bản sao nào. Nếu muốn hỏi về báo cáo lỗi đã gửi, hãy liên hệ theo mục 7.</p>
+
+<h2>6. Trẻ em</h2>
+<p>Ứng dụng không nhắm tới trẻ em dưới 13 tuổi và không cố ý thu thập dữ liệu của trẻ em.</p>
+
+<h2>7. Liên hệ và thay đổi</h2>
+<p>Câu hỏi về quyền riêng tư, vui lòng gửi tới <a href="mailto:thuongtth.gnouht@gmail.com">thuongtth.gnouht@gmail.com</a>.</p>
+<p>Khi chính sách thay đổi, chúng tôi cập nhật trang này và ngày có hiệu lực ở đầu trang. Thay đổi lớn sẽ được thông báo trong ghi chú phát hành của ứng dụng.</p>
+</main>
+</body>
+</html>
